@@ -109,6 +109,7 @@ h4,h5.h5{
 .dark{
     color: #83F3ED;
     background: #011627;
+    height: 300px;
 }
 
 .dark i{
@@ -139,3 +140,11 @@ h4,h5.h5{
 }
 
 /*end of footer*/
+
+
+@media(max-width:900px){
+    .call-to-action .container{
+        width: 100% !important;
+        
+    }
+}
